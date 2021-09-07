@@ -1,4 +1,8 @@
+import os
 from fastapi import FastAPI
-app = FastAPI()
 
-print("test")
+app = FastAPI()
+@app.get("/")
+
+async def index():
+  return "tes"
