@@ -6,4 +6,4 @@ app = FastAPI()
 
 def index():
   print("tes")
-  return
+  return False
