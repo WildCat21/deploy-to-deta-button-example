@@ -6,3 +6,4 @@ app = FastAPI()
 
 def index():
   print("tes")
+  return
