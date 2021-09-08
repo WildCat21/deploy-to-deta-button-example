@@ -1,5 +1,5 @@
 import os
-from deta = Deta
+from deta import Deta
 from fastapi import FastAPI
 
 app = FastAPI()
