@@ -1,9 +1,9 @@
-import os
+import os, deta
 from fastapi import FastAPI
 
 app = FastAPI()
 @app.get("/")
 
 def index():
-  print("tes")
+  print("test")
   return False
